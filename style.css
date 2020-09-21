@@ -1,0 +1,98 @@
+body {
+    margin: 5%;
+    background-color: darkgrey;
+}
+
+.col-xs-12 {
+    width: 40%; 
+    float: none; 
+    margin: 0 auto;
+}
+    
+.col-xs-4 {
+    width: 40%; 
+    float: none; 
+    margin: 0 auto;
+}
+
+.headline {
+    margin: 5% auto 2% auto;
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+}
+
+.search-box {
+    display: grid;
+    margin: 1% auto 1% auto;
+    height: auto;
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    background-color: wheat;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.picture {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.search-box-underline:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    margin: 5% auto 5% auto ;
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    height: auto;
+}
+
+.footer p {
+    font-size: 18px;
+}
+  
+.footer p a {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+    body {margin: 1%;}
+    .col-xs-12 {width: 100%; float: none; margin: 0 auto;}
+    .col-xs-4 {width: 100%; float: none; margin: 0 auto;}
+    .headline h1 {font-size: 20px;}
+    .search-box h1 {font-size: 14px;}
+    .search-box p {font-size: 10px;}
+    .search-box .picture {height: 85px; width: 85px;}
+    .footer p {font-size: 14px;}
+} 
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .col-xs-12 {width: 80%; float: none; margin: 0 auto;}
+    .col-xs-4 {width: 80%; float: none; margin: 0 auto;}
+    .headline h1 {font-size: 24px;}
+    .search-box h1 {font-size: 16px;}
+    .search-box p {font-size: 12px;}
+    .search-box .picture {height: 80px; width: 80px;}
+    .footer p {font-size: 16px;}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .col-xs-12 {width: 60%; float: none; margin: 0 auto;}
+    .col-xs-4 {width: 60%; float: none; margin: 0 auto;}
+    .headline h1 {font-size: 24px;}
+    .search-box h1 {font-size: 18px;}
+    .search-box p {font-size: 14px;}
+    .footer p {font-size: 18px;}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .col-xs-12 {width: 50%; float: none; margin: 0 auto;}
+    .col-xs-4 {width: 50%; float: none; margin: 0 auto;}
+    .headline h1 {font-size: 24px;}
+    .search-box h1 {font-size: 18px;}
+    .search-box p {font-size: 14px;}
+    .footer p {font-size: 18px;}
+}
